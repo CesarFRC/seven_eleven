@@ -49,13 +49,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="f1L-pX-BXc">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="932"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b9x-gF-DVO">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="233"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="213"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Menu del Juego" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3MF-H5-HL4">
-                                                <rect key="frame" x="70.333333333333329" y="99.666666666666686" width="252.33333333333337" height="34"/>
+                                                <rect key="frame" x="70.333333333333329" y="89.666666666666671" width="252.33333333333337" height="34"/>
                                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -69,10 +69,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HeW-Wz-4zO">
-                                        <rect key="frame" x="0.0" y="233" width="393" height="233"/>
+                                        <rect key="frame" x="0.0" y="213" width="393" height="213"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8p-OG-vtf">
-                                                <rect key="frame" x="24.666666666666657" y="66.666666666666686" width="344" height="100"/>
+                                                <rect key="frame" x="24.666666666666657" y="56.666666666666686" width="344" height="100"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="jugar_final -reducion_pixeles.2.jpeg"/>
                                                 <connections>
@@ -86,10 +86,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nu5-RU-X3h">
-                                        <rect key="frame" x="0.0" y="466" width="393" height="233"/>
+                                        <rect key="frame" x="0.0" y="426" width="393" height="213"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Heu-S3-fhs">
-                                                <rect key="frame" x="25.666666666666657" y="68" width="342" height="97"/>
+                                                <rect key="frame" x="25.666666666666657" y="58" width="342" height="97"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="WhatsApp Image 2025-11-15 at 5.52.53 PM-2.jpeg"/>
                                                 <connections>
@@ -103,10 +103,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sdd-kk-o2y">
-                                        <rect key="frame" x="0.0" y="699" width="393" height="233"/>
+                                        <rect key="frame" x="0.0" y="639" width="393" height="213"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhD-OE-Xdd">
-                                                <rect key="frame" x="26.666666666666657" y="68" width="340" height="97"/>
+                                                <rect key="frame" x="26.666666666666657" y="58" width="340" height="97"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="WhatsApp Image 2025-11-15 at 5.52.53 PM.jpeg"/>
                                                 <connections>
@@ -308,6 +308,10 @@
                         <outlet property="botonTirar" destination="31A-Ud-d53" id="WPg-qv-ean"/>
                         <outlet property="dadoDerecho" destination="08w-Rw-OA4" id="Sop-oJ-sfn"/>
                         <outlet property="dadoIzquierdo" destination="oPA-eo-M55" id="CM9-td-7mB"/>
+                        <outlet property="etiquetaPuntos" destination="zQh-j7-S0O" id="3xm-Qa-h5q"/>
+                        <outlet property="etiquetaRonda" destination="jM5-qf-0JF" id="Zkk-5e-bXU"/>
+                        <outlet property="etiquetaTiempo" destination="Bd8-nx-LsQ" id="i6Y-Zd-QjD"/>
+                        <outlet property="etiquetaVidas" destination="JY8-wv-nzd" id="3IB-87-3ai"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8C3-LZ-gur" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

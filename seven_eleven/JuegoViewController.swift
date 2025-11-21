@@ -7,7 +7,22 @@ class JuegoViewController: UIViewController {
     @IBOutlet weak var dadoDerecho: UIImageView!
     
     let nombresImagenesDados = ["dado1", "dado2", "dado3", "dado4", "dado5", "dado6"]
-
+    
+    
+    
+    
+    
+    @IBOutlet weak var etiquetaRonda: UILabel!
+    
+    
+    @IBOutlet weak var etiquetaPuntos: UILabel!
+    
+    
+    @IBOutlet weak var etiquetaTiempo: UILabel!
+    
+    
+    @IBOutlet weak var etiquetaVidas: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         dadoIzquierdo.image = UIImage(named: "dado1")
